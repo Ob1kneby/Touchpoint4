@@ -14,15 +14,14 @@
 
 <!-- ================= HERO ================= -->
 <header class="hero">
-  <!-- To add your photo: put it in images/ and add  style="background-image:url('images/hero.jpg')"  to the div below -->
-  <div class="hero-photo"></div>
-  <span class="photo-slot">Photo slot: your summit / Puʻuhuluhulu photo</span>
+  <!-- Hero photo: save your summit photo as images/hero.jpg -->
+  <div class="hero-photo" role="img" aria-label="The summit of Mauna Kea"></div>
   <div class="hero-inner">
     <div class="eyebrow">Mauna Kea · The Thirty Meter Telescope</div>
     <h1>Who Gets to Say No?</h1>
-    <p>A sacred mountain, the world's best place for a telescope, and a fight that's really about who gets to decide.</p>
+    <p>A sacred mountain, one of the best places on Earth to build a telescope, and a fight that comes down to who gets to decide.</p>
   </div>
-  <span class="credit">Photo: [your name or credit]</span>
+  <span class="credit">Photo: Luke Linebaugh</span>
 </header>
 
 <!-- ================= ARGUMENT ================= -->
@@ -30,20 +29,34 @@
   <aside class="argument">
     <div class="eyebrow">My argument</div>
     <blockquote>A telescope can only respect a sacred place if the people it's sacred to have the power to say no. On Mauna Kea, Native Hawaiians never have.</blockquote>
-    <div class="todo">One or two sentences on how your view shifted since Touchpoint 3, if it did (the assignment asks for this at the top).</div>
+    <p class="shift"><strong>Where I started vs. where I ended up:</strong> I started this project asking if TMT could be <em>designed</em> to respect the mountain. My answer hasn't changed since my last draft: design isn't the real problem. What changed while building this page is how much I think rides on the new Mauna Kea authority. It's the first real test of whether Native Hawaiians get a say that counts.</p>
   </aside>
 </div>
 
 <!-- ================= WHY THE MAUNA MATTERS ================= -->
 <section class="block" id="mauna">
-  <div class="wrap">
+  <div class="wrap"><div class="prose">
     <h2>Why the mountain matters</h2>
-    <p class="lede">Before the debate, the basics: what Mauna Kea is to Native Hawaiians, and why astronomers want it so badly.</p>
-    <div class="todo">2–3 short paragraphs: the mauna as kin and genealogy, the summit as one of the best observing sites on Earth, and your own connection to it as someone who grew up in Hawaiʻi and is training as an engineer.</div>
-    <figure>
-      <div class="media slot">Photo slot: summit telescopes (free-licensed, e.g. Wikimedia Commons)</div>
-      <figcaption>Caption + credit/license</figcaption>
-    </figure>
+    <p>Mauna Kea is the tallest mountain in Hawaiʻi, almost 14,000 feet above the ocean. To Native Hawaiians it isn't just a mountain. In one Hawaiian story, Mauna Kea is the firstborn son of Wākea, the sky father, and Papa, the earth mother, who are the ancestors of the islands and of the Hawaiian people. That's why many people call it Mauna a Wākea. When protectors say the mountain is family, they mean it literally. It's part of their genealogy.</p>
+    <p>The same things that make the summit sacred also make it perfect for astronomers. It's high, dry, and above most of the clouds, and it has some of the clearest skies in the world. The state gave the University of Hawaiʻi a lease on more than 11,000 acres of the summit in 1968 for $1. Since then, the mountaintop has filled up with 13 telescope complexes, and for years the observatories had a record of chemical leaks and leaving trash behind. State audits in the 1990s faulted UH for not holding them accountable.</p>
+    <p>I grew up in Hawaiʻi, and I have friends who stood on the mauna to protest TMT. I'm also training to be an engineer, and a thirty-meter telescope is an incredible piece of engineering. That's why this topic is personal for me. I can see why scientists want it built, and I can see why so many people I know fought to stop it. This page is my attempt to work out which side of that tension actually holds up.</p>
+  </div></div>
+</section>
+
+<!-- ================= WHO DECIDED ================= -->
+<section class="block" id="decided">
+  <div class="wrap">
+    <h2>Who decided, and when</h2>
+    <p class="lede">The short version of the history. Look at who held the power at each step.</p>
+    <ol class="decided">
+      <li><span class="yr">1968</span><span class="dot"></span><span class="what">UH gets a $1 lease on the summit</span><span class="who">The state</span></li>
+      <li><span class="yr">2009</span><span class="dot"></span><span class="what">TMT picks Mauna Kea as its site</span><span class="who">TMT</span></li>
+      <li><span class="yr">2017</span><span class="dot"></span><span class="what">Land board approves the building permit</span><span class="who">The state</span></li>
+      <li><span class="yr">2018</span><span class="dot"></span><span class="what">Hawaiʻi Supreme Court upholds the permit</span><span class="who">The courts</span></li>
+      <li class="nh"><span class="yr">2019</span><span class="dot"></span><span class="what">Thousands block the road and stop construction</span><span class="who">Protectors</span></li>
+      <li class="nh"><span class="yr">2022 →</span><span class="dot"></span><span class="what">Act 255 creates a new authority with Native Hawaiian seats</span><span class="who">Shared</span></li>
+    </ol>
+    <p class="note">Opponents did win in court sometimes, but those wins mostly sent the process back to be redone, as when the Hawaiʻi Supreme Court threw out TMT's first permit in 2015 over procedure. What actually stopped the telescope came from outside the official process. In 2014, protest leader Lanakila Mangauil ran up the mountain to stop TMT's groundbreaking ceremony. Protests in 2015 and 2019 each halted construction.</p>
   </div>
 </section>
 
@@ -58,18 +71,18 @@
         <span class="eyebrow">The case for</span>
         <h3>Science as genealogy</h3>
         <p>Supporters, including some Native Hawaiian astronomers, see TMT as a way to study our origins.</p>
-        <span class="who">Imua TMT · Dr. Heather Kaluna</span>
+        <span class="who">Imua TMT · Dr. Heather Kaluna · Dr. Paul Coleman</span>
       </button>
       <button class="card c-against" data-side="against" aria-controls="panel-against" aria-expanded="false">
         <span class="eyebrow">The case against</span>
         <h3>The mountain as kin</h3>
-        <p>For protectors, the summit isn't a site. It's an ancestor, and more building is desecration.</p>
+        <p>For protectors, the summit is an ancestor, and more building on it is desecration.</p>
         <span class="who">Temple Under Siege · Native Hawaiian scientists · Casumbal-Salazar</span>
       </button>
       <button class="card c-law" data-side="law" aria-controls="panel-law" aria-expanded="false">
         <span class="eyebrow">The legal fight</span>
         <h3>Consulted, never asked</h3>
-        <p>The courts approved the permit, but heard Hawaiians without ever giving them a veto.</p>
+        <p>The courts approved the permit, but Hawaiians never had a way to say no.</p>
         <span class="who">2018 Supreme Court ruling · YES! Magazine</span>
       </button>
       <button class="card c-now" data-side="now" aria-controls="panel-now" aria-expanded="false">
@@ -86,17 +99,20 @@
         <div>
           <div class="eyebrow">The case for TMT</div>
           <h3>Science as genealogy</h3>
-          <div class="todo">The strongest version of the pro-TMT argument: site picked to avoid known shrines and burials, rent and STEM funding for local students, and the "our ancestors navigated by the stars" framing. Then Kaluna's view: support for astronomy, but with limits on building.</div>
+          <p>The best summary of the pro-TMT case comes from Imua TMT, a Hawaiʻi group that supports the telescope. Their argument has three parts. First, the site was picked carefully: a northern plateau below the summit that a 2000 master plan chose because it had no known shrines, burials, or endangered species. Second, TMT would give back. It promised rent that rises to $1 million a year (part of it going to the Office of Hawaiian Affairs) and another $1 million a year for STEM education for Hawaiʻi students. Third, astronomy fits Hawaiian culture, because Hawaiian ancestors navigated the Pacific by the stars.</p>
+          <p>Imua TMT is an advocacy group, so it's selling something, and some of what it says is out of date. For example, it argues TMT can't be built on the site of an old telescope, but TMT is now considering exactly that (see <a href="#now">where it stands now</a>). Still, it's worth noting that some of what Imua lists as community input matches what protectors asked for: take down an old telescope for every new one, and pay a fair lease instead of $1 a year.</p>
+          <p>The more interesting voices are Native Hawaiian astronomers who testified for TMT. Dr. Heather Kaluna grew up in Pāhoa and makes offerings on the mountain. She describes her astronomy as a way to study origins and genealogy, which she calls central to Hawaiian culture. Dr. Paul Coleman, an astronomer at UH, put it more directly: using TMT to look back in time is, "in the Hawaiian sense, literally investigating my ancestors."</p>
           <div class="pull">“I see Maunakea as a special place that allows us to understand and study our origins.”<cite>Dr. Heather Kaluna, contested case testimony (2016)</cite></div>
-          <div class="ties-back"><strong>Back to the question:</strong> <span class="todo" style="display:inline-block;margin:0">Even supporters like Kaluna want limits. So who sets them?</span></div>
+          <p>But Kaluna also said development on the mountain should be limited to keep a balance between culture and science, and she worried about the rare native plants and birds at the summit. When opponents cross-examined her, Kealoha Pisciotta of Mauna Kea Anaina Hou asked whether she considered herself a traditional cultural practitioner. Kaluna said yes. That exchange shows how contested the question "who speaks for the culture?" really is.</p>
+          <div class="ties-back"><strong>Back to the question:</strong> Even the strongest Native Hawaiian supporters of TMT want limits on building. So the real question is who gets to set those limits.</div>
         </div>
         <div class="side">
           <h4>Sources</h4>
           <ul class="chips">
-            <li><span class="kind">Advocacy site</span><a href="https://imuatmt.org/get-the-facts/">Imua TMT, “Get the Facts”</a></li>
+            <li><span class="kind">Advocacy site · pro-TMT</span><a href="https://imuatmt.org/get-the-facts/">Imua TMT, “Get the Facts”</a></li>
             <li><span class="kind">Primary source · Native Hawaiian astronomer</span><a href="https://dev-dlnr.hawaii.gov/mk/files/2016/10/TIO-EXH-C-8.pdf">Kaluna testimony (Exhibit TIO C-8)</a></li>
+            <li><span class="kind">Local news</span><a href="https://www.hawaiitribune-herald.com/2017/01/08/hawaii-news/astronomers-make-their-case/">“Astronomers make their case,” Hawaii Tribune-Herald (2017)</a></li>
           </ul>
-          <figure><div class="media slot">Photo slot: astronomy on Mauna Kea</div><figcaption>Caption + credit</figcaption></figure>
         </div>
       </div>
       <div class="panel-nav"><span></span><button data-go="against">Next: the case against →</button></div>
@@ -108,9 +124,12 @@
         <div>
           <div class="eyebrow">The case against TMT</div>
           <h3>The mountain as kin</h3>
-          <div class="todo">Why the summit is sacred (Temple Under Siege), why Native Hawaiian scientists called for a halt (white paper), and Casumbal-Salazar's point that "our ancestors were astronomers" turns taking the summit into an inheritance.</div>
-          <div class="pull">“Mauna a Wākea is more than just a list of physical attributes; it is our kin.”<cite>Iokepa Casumbal-Salazar</cite></div>
-          <div class="ties-back"><strong>Back to the question:</strong> <span class="todo" style="display:inline-block;margin:0">Native Hawaiians are on both sides. This isn't Hawaiians vs. scientists.</span></div>
+          <p>The best place to start is <em>Mauna Kea: Temple Under Siege</em>, a 2005 documentary by Nā Maka o ka ʻĀina ("the eyes of the land"), a Hawaiian film team that spent five years on the mountain. It shows the summit's ecosystems, the stories tied to it, and the fight against more observatories, with people like Kealoha Pisciotta and educator Manu Aluli Meyer speaking for themselves. It calls the mountain itself "the most significant temple in the islands." It also came out years before TMT picked Mauna Kea, which matters. The fight over TMT didn't start in 2019. TMT walked into decades of built-up distrust.</p>
+          <p>The second source breaks the idea that this is culture vs. science. In 2020, a group of mostly Native Hawaiian scientists wrote a white paper for a national astronomy review. They looked at how police were used against protectors, whether astronomy has actually benefited Native Hawaiians, and how disconnected astronomers are from the Hawaiian community. They called for an immediate halt to TMT, more support for Native Hawaiian astronomy students, and for every observational astronomer to learn Hawaiian history and culture. They also admit the Hawaiian community "is not of one mind" about TMT. So the people opposing TMT here are scientists too.</p>
+          <p>The third source explains why the pro-TMT "our ancestors were astronomers" argument bothers so many people. Native Hawaiian scholar Iokepa Casumbal-Salazar argues that linking modern telescopes to ancient Hawaiian navigators turns taking over the summit into a kind of inheritance. In that story, the Hawaiians who object come off as anti-science or irrational.</p>
+          <div class="pull">“Mauna a Wākea is more than just a list of physical attributes; it is our kin.”<cite>Iokepa Casumbal-Salazar, University of Minnesota Press blog (2019)</cite></div>
+          <p>His point is strong, but it's harder to apply to Kaluna and Coleman, who are Native Hawaiian themselves. That's exactly why I don't think "Hawaiians vs. scientists" is the right way to see this. Native Hawaiians disagree with each other about TMT. But on both sides, they agree on two things: build less on the mountain, and give Hawaiians more of a role in decisions about it.</p>
+          <div class="ties-back"><strong>Back to the question:</strong> If Native Hawaiians on both sides want limits and a bigger role, then the disagreement isn't really about science. It's about whose call it is.</div>
         </div>
         <div class="side">
           <h4>Sources</h4>
@@ -119,8 +138,8 @@
             <li><span class="kind">White paper · Native Hawaiian scientists</span><a href="https://arxiv.org/abs/2001.00970">Kahanamoku et al. (2020)</a></li>
             <li><span class="kind">Peer-reviewed · Native Hawaiian author</span><a href="https://doi.org/10.1353/nai.2017.a703400">“A Fictive Kinship” (2017)</a></li>
           </ul>
-          <div class="media slot" data-youtube="_Ucr7Y9db6Q" data-title="Protest short from Touchpoint 1">
-            <span>▶ Video: protest short from Touchpoint 1<br><a href="https://www.youtube.com/watch?v=_Ucr7Y9db6Q">Watch on YouTube</a><br><small>Embeds automatically on GitHub Pages</small></span>
+          <div class="media slot" data-youtube="_Ucr7Y9db6Q" data-title="Mauna Kea protest short">
+            <span>▶ Video: Mauna Kea protest short<br><a href="https://www.youtube.com/watch?v=_Ucr7Y9db6Q">Watch on YouTube</a></span>
           </div>
         </div>
       </div>
@@ -133,9 +152,33 @@
         <div>
           <div class="eyebrow">The legal fight</div>
           <h3>Consulted, never asked</h3>
-          <div class="todo">The 2018 ruling: removing old telescopes "offsets" a new one, like swapping out old scoreboards. Justice Wilson's dissent: more damage to a damaged summit is still damage. Then Hitt's consultation vs. consent: Hawaiians were heard at hearing after hearing but could never stop anything.</div>
+          <p>If Native Hawaiians on both sides agree on building less and having more say, why hasn't that mattered? The legal record answers that.</p>
+          <p>In 2017, the state land board approved TMT's permit. As Christine Hitt points out, the board found no physical evidence that TMT would harm cultural sites like burials or altars, because none were right next to the site. That finding didn't account for the whole mountain being sacred. In 2018, the Hawaiʻi Supreme Court upheld the permit in an essentially 4–1 decision. The majority agreed that astronomy is an allowed use of the summit, and that steps like decommissioning five older telescopes would lessen TMT's impact. To me that's like swapping out old scoreboards at a stadium and calling it even.</p>
+          <p>Justice Michael Wilson disagreed. In his dissent, he criticized the logic that because the summit was already badly damaged by past telescopes, TMT couldn't count as new damage. His point is simple: a damaged place can still be damaged more. <em>Temple Under Siege</em> shows that damage building up for decades.</p>
+          <p>Hitt, a writer from Hawaiʻi and former editor of the Native Hawaiian publication <em>MANA</em>, also explains why the process kept failing Hawaiians. Under the current system, Native communities get "consulted," often late, after most approvals are already in place. They can comment, but the agency decides. The alternative is "free, prior, and informed consent," a standard from the UN Declaration on the Rights of Indigenous Peoples. It means a community is asked from the start and can actually say no.</p>
+          <div class="versus">
+            <div class="cons">
+              <h4>Consultation: how Mauna Kea went</h4>
+              <ol>
+                <li>Site picked</li>
+                <li>Plans drawn up</li>
+                <li class="ask">Public hearings and comments</li>
+                <li>Agency decides anyway</li>
+              </ol>
+            </div>
+            <div>
+              <h4>Consent: what was missing</h4>
+              <ol>
+                <li class="ask">Community asked first</li>
+                <li class="ask">A "no" actually stops it</li>
+                <li>Site and design shaped together</li>
+                <li>Build, if the answer is yes</li>
+              </ol>
+            </div>
+          </div>
           <div class="pull">“The whole notion of ‘consultation’ really comes out of the framework where the Indigenous people concerned are fully subservient to the state.”<cite>Carla Fredericks, quoted in YES! Magazine (2019)</cite></div>
-          <div class="ties-back"><strong>Back to the question:</strong> <span class="todo" style="display:inline-block;margin:0">This is where the answer to "who decides" has been: the state and the courts.</span></div>
+          <p>That's what happened on Mauna Kea. Native Hawaiians testified at hearing after hearing, but never had a way to stop anything. Even the outreach Imua TMT points to (more than 20 public meetings) happened after a 2000 master plan had already marked out the area for the next big telescope. Hitt also compares Mauna Kea to Standing Rock. That comparison helps, but it only goes so far. Native Hawaiians don't have a federally recognized tribal government the way the Standing Rock Sioux do, so they have even fewer legal tools.</p>
+          <div class="ties-back"><strong>Back to the question:</strong> So far, the answer to "who decides" has been the state, the courts, and the project. Native Hawaiians were heard, but never asked.</div>
         </div>
         <div class="side">
           <h4>Sources</h4>
@@ -143,7 +186,7 @@
             <li><span class="kind">Court decision</span><a href="https://www.courts.state.hi.us/wp-content/uploads/2018/12/SCOT-17-0000777am.pdf">Hawaiʻi Supreme Court, TMT permit (2018)</a></li>
             <li><span class="kind">Journalism · writer from Hawaiʻi</span><a href="https://www.yesmagazine.org/social-justice/2019/08/14/mauna-kea-protest-tmt">Hitt, YES! Magazine (2019)</a></li>
           </ul>
-          <div class="todo">Possible graphic: a simple "consultation vs. consent" side-by-side diagram (I can draw this).</div>
+          <div class="pull" style="margin-top:0">“I think that laws exist to protect our rights, but there's no one who's willing to enforce them.”<cite>Kealoha Pisciotta, Mauna Kea Anaina Hou, in YES! Magazine (2019)</cite></div>
         </div>
       </div>
       <div class="panel-nav"><button data-go="against">← The case against</button><button data-go="now">Next: where it stands now →</button></div>
@@ -155,9 +198,14 @@
         <div>
           <div class="eyebrow">Where it stands now</div>
           <h3>The speed of trust</h3>
-          <div class="todo">Act 255 moves control from UH to a new authority with protectors, practitioners, and astronomers on one board. It's already changing the engineering: TMT is now looking at building where an old telescope was removed. But federal funding may decide TMT before the sacred-site question is ever answered.</div>
+          <p>After the 2019 protests, the state finally changed who's in charge. Act 255, passed in 2022, creates the Mauna Kea Stewardship and Oversight Authority, which takes over management of the mountain from UH by 2028. The law calls for "mutual stewardship," where the environment, cultural practices, education, and science are kept "in balance." The board has 11 voting seats, each assigned to a specific role (see the breakdown beside this text). Two are reserved for Native Hawaiian cultural practice.</p>
+          <p>That's a huge step from a $1 lease run entirely by UH. But it's worth being honest about what it is: Native Hawaiians get seats at the table, not a veto. Whether that turns into real consent depends on how the board actually uses its power.</p>
+          <p>In practice, that means people who used to be on opposite sides of the road now sit at the same table. Lanakila Mangauil, who ran up the mountain in 2014 to stop TMT's groundbreaking, is on the board alongside astronomy and UH representatives. The authority has held community meetings across the state, and astronomers and protesters have found common ground on limiting tourist access, restoring rivers that flow from the mountain, and sharing Hawaiian knowledge with visitors. At one meeting, the director of the Canada-France-Hawaii Telescope thanked the protesters: "You made me understand that something was going wrong."</p>
+          <p>The tension hasn't gone away, though. Telescope leases expire in 2033, and UH leaders warned the authority that moving too slowly could push observatories out of Hawaiʻi. The authority's chair wrote back:</p>
           <div class="pull">“…we should strive to move at the speed of trust, rather than being driven by the expedience of transaction.”<cite>John Komeji, chair of the Mauna Kea Stewardship and Oversight Authority, via Civil Beat (2026)</cite></div>
-          <div class="ties-back"><strong>Back to the question:</strong> <span class="todo" style="display:inline-block;margin:0">For the first time, the people the mountain is sacred to may get a real say. Will it count?</span></div>
+          <p>To me, that exchange is the whole conflict in two sentences: consent vs. convenience. And it's already shaping the engineering. TMT is now looking at building on the site of a decommissioned telescope instead of untouched land, and any change like that has to go through the new authority.</p>
+          <p>But TMT's fate might not be decided on the mountain at all. In 2025 the National Science Foundation favored a different giant telescope in Chile. Congress kept TMT alive but gave it no new money, and it's still about $1 billion short of its roughly $3 billion cost. It's even looking at Spain's Canary Islands as a backup site. Meanwhile, Pisciotta says the law is now on the protectors' side, since a required federal consultation and a cultural impact review still haven't been done.</p>
+          <div class="ties-back"><strong>Back to the question:</strong> For the first time, Native Hawaiians may get a real say. But if funding decides TMT first, the sacred-site question gets skipped, not answered.</div>
         </div>
         <div class="side">
           <h4>Sources</h4>
@@ -166,7 +214,23 @@
             <li><span class="kind">Local news</span><a href="https://www.civilbeat.org/2026/02/new-mauna-kea-authority-has-difficult-task-ahead-and-limited-time/">Civil Beat on the new authority (Feb 2026)</a></li>
             <li><span class="kind">Local news</span><a href="https://www.civilbeat.org/2026/03/the-thirty-meter-telescope-is-still-alive-for-now/">Civil Beat on TMT's status (Mar 2026)</a></li>
           </ul>
-          <div class="todo">Possible graphic: who sits on the new board (seat types from Act 255).</div>
+          <h4>Who sits on the new board</h4>
+          <div class="board" role="img" aria-label="11 voting seats: 2 for Native Hawaiian cultural practice, 1 for the observatories, 3 government officials, 5 appointed for expertise or by the legislature">
+            <div class="seats">
+              <span class="s nh" title="Lineal descendant of a Mauna Kea practitioner"></span><span class="s nh" title="Recognized practitioner"></span>
+              <span class="s obs" title="Observatories' nominee"></span>
+              <span class="s gov" title="Land board chair"></span><span class="s gov" title="Hawaiʻi County mayor"></span><span class="s gov" title="UH regents chair"></span>
+              <span class="s oth" title="Land management"></span><span class="s oth" title="Education"></span><span class="s oth" title="Business and finance"></span><span class="s oth" title="Senate pick"></span><span class="s oth" title="House pick"></span>
+            </div>
+            <ul class="key">
+              <li><i class="s nh"></i>2 · Native Hawaiian cultural practice</li>
+              <li><i class="s obs"></i>1 · Observatories' nominee</li>
+              <li><i class="s gov"></i>3 · Land board, county mayor, UH regents</li>
+              <li><i class="s oth"></i>5 · Land, education, business, legislature picks</li>
+            </ul>
+            <p class="note" style="margin:6px 0 0">Voting seats under Act 255. Other members could also be Native Hawaiian; these are just the seats set aside by role.</p>
+          </div>
+          <div class="pull">“The law is still on our side. And it's for everyone, not just Hawaiians.”<cite>Kealoha Pisciotta, via Civil Beat (2026)</cite></div>
         </div>
       </div>
       <div class="panel-nav"><button data-go="law">← The legal fight</button><a href="#engineers" style="font-size:.9rem">So what for engineers? ↓</a></div>
@@ -180,11 +244,12 @@
     <div class="engineers">
       <div class="eyebrow">Why this page exists</div>
       <h2>The design question is really a "who decides" question</h2>
-      <div class="todo">Your contribution from Touchpoint 3: this is written for engineering and science students, especially anyone who may build on Indigenous land. None of the sources puts the cultural, scientific, and legal sides next to the new authority and asks what it means for the people designing the next big project.</div>
+      <p>I wrote this for engineering and science students, especially anyone who might one day build on Indigenous land. Each of my sources covers one piece of this story. None of them puts the cultural, scientific, and legal sides next to the new authority and asks what it means for the people designing the next big project.</p>
+      <p>Here's what I take from it. TMT was an engineering problem that got treated like it could be solved with engineering: pick a plateau with no shrines, pay real rent, take down old telescopes. Those are good ideas, and some of them came from the community. But none of them changes who gets the final say. A project can do everything "right" and still not respect a place, if the people it's sacred to were never allowed to say no.</p>
       <div class="steps">
-        <div><b>Ask early</b><span class="todo" style="display:block;margin:0">Before the site is picked, not after.</span></div>
-        <div><b>Ask for consent</b><span class="todo" style="display:block;margin:0">Not just comments at a hearing.</span></div>
-        <div><b>Accept a no</b><span class="todo" style="display:block;margin:0">Or the asking doesn't mean anything.</span></div>
+        <div><b>Ask early</b>Before the site is picked, not after the plans are drawn.</div>
+        <div><b>Ask for consent</b>Not just comments at a hearing the agency can overrule.</div>
+        <div><b>Accept a no</b>If a "no" can't stop the project, the asking doesn't mean much.</div>
       </div>
     </div>
   </div>
@@ -198,12 +263,14 @@
     <ul class="sources">
       <li class="c-for">Imua TMT. (n.d., last updated 2020). <em>Get the facts</em>. <a href="https://imuatmt.org/get-the-facts/">imuatmt.org</a><span class="tagline">Case for · advocacy group</span></li>
       <li class="c-for">Kaluna, H. M. (2016). <em>Written direct testimony</em> (Exhibit TIO C-8), BLNR contested case hearing on CDUA HA-3568. <a href="https://dev-dlnr.hawaii.gov/mk/files/2016/10/TIO-EXH-C-8.pdf">PDF</a><span class="tagline">Case for · primary source</span></li>
+      <li class="c-for">Astronomers make their case. (2017, January 8). <em>Hawaii Tribune-Herald</em>. <a href="https://www.hawaiitribune-herald.com/2017/01/08/hawaii-news/astronomers-make-their-case/">Link</a><span class="tagline">Case for · local news</span></li>
       <li class="c-against">Puhipau &amp; Lander, J. (Directors). (2005). <em>Mauna Kea: Temple Under Siege</em> [Documentary]. Nā Maka o ka ʻĀina. <a href="https://stream.mele.com/videos/mauna-kea-temple-under-siege">Stream</a><span class="tagline">Case against · community-produced</span></li>
-      <li class="c-against">Kahanamoku, S., et al. (2020). <em>A Native Hawaiian-led summary of the current impact of constructing the Thirty Meter Telescope on Maunakea</em>. <a href="https://arxiv.org/abs/2001.00970">arXiv:2001.00970</a><span class="tagline">Case against · white paper, not peer-reviewed</span></li>
-      <li class="c-against">Casumbal-Salazar, I. (2017). A fictive kinship. <em>Native American and Indigenous Studies, 4</em>(2), 1–30. <a href="https://doi.org/10.1353/nai.2017.a703400">DOI</a><span class="tagline">Case against · peer-reviewed</span></li>
-      <li class="c-law"><em>In re Contested Case Hearing re CDUA HA-3568 for the Thirty Meter Telescope</em>, SCOT-17-0000777 (Haw. 2018). <a href="https://www.courts.state.hi.us/wp-content/uploads/2018/12/SCOT-17-0000777am.pdf">PDF</a><span class="tagline">Legal fight · court decision</span></li>
+      <li class="c-against">Kahanamoku, S., Alegado, R. ʻA., Kagawa-Viviani, A., Kamelamela, K. L., Kamai, B., Walkowicz, L. M., Prescod-Weinstein, C., de los Reyes, M. A., &amp; Neilson, H. (2020). <em>A Native Hawaiian-led summary of the current impact of constructing the Thirty Meter Telescope on Maunakea</em>. <a href="https://arxiv.org/abs/2001.00970">arXiv:2001.00970</a><span class="tagline">Case against · white paper, not peer-reviewed</span></li>
+      <li class="c-against">Casumbal-Salazar, I. (2017). A fictive kinship: Making “modernity,” “ancient Hawaiians,” and the telescopes on Mauna Kea. <em>Native American and Indigenous Studies, 4</em>(2), 1–30. <a href="https://doi.org/10.1353/nai.2017.a703400">DOI</a><span class="tagline">Case against · peer-reviewed</span></li>
+      <li class="c-against">Casumbal-Salazar, I. (2019, August 1). Mauna Kea: “More than just a list of physical attributes.” <em>University of Minnesota Press Blog</em>. <a href="https://uminnpressblog.com/2019/08/01/mauna-kea-more-than-just-a-list-of-physical-attributes/">Link</a><span class="tagline">Case against · author's own commentary</span></li>
+      <li class="c-law"><em>In re Contested Case Hearing re CDUA HA-3568 for the Thirty Meter Telescope at the Mauna Kea Science Reserve</em>, SCOT-17-0000777 (Haw. Oct. 30, 2018; amended Nov. 30, 2018) (Wilson, J., dissenting). <a href="https://www.courts.state.hi.us/wp-content/uploads/2018/12/SCOT-17-0000777am.pdf">PDF</a><span class="tagline">Legal fight · court decision</span></li>
       <li class="c-law">Hitt, C. (2019, August 14). Mauna Kea protests reveal problems in construction processes on Native lands. <em>YES! Magazine</em>. <a href="https://www.yesmagazine.org/social-justice/2019/08/14/mauna-kea-protest-tmt">Link</a><span class="tagline">Legal fight · journalism</span></li>
-      <li class="c-now">Hawaiʻi State Legislature. (2022). <em>Act 255, SLH 2022</em>. <a href="https://data.capitol.hawaii.gov/sessions/sessionlaws/Years/SLH2022/SLH2022_Act255.pdf">PDF</a><span class="tagline">Now · state law</span></li>
+      <li class="c-now">Hawaiʻi State Legislature. (2022). <em>Act 255, Session Laws of Hawaiʻi 2022: Relating to Mauna Kea</em>. <a href="https://data.capitol.hawaii.gov/sessions/sessionlaws/Years/SLH2022/SLH2022_Act255.pdf">PDF</a><span class="tagline">Now · state law</span></li>
       <li class="c-now">Lovell, B. (2026, February 17). New Mauna Kea authority has difficult task ahead — and limited time. <em>Honolulu Civil Beat</em>. <a href="https://www.civilbeat.org/2026/02/new-mauna-kea-authority-has-difficult-task-ahead-and-limited-time/">Link</a><span class="tagline">Now · local news</span></li>
       <li class="c-now">Lovell, B. (2026, March 2). The Thirty Meter Telescope is still alive — for now. <em>Honolulu Civil Beat</em>. <a href="https://www.civilbeat.org/2026/03/the-thirty-meter-telescope-is-still-alive-for-now/">Link</a><span class="tagline">Now · local news</span></li>
     </ul>
@@ -214,14 +281,15 @@
 <section class="block" id="accuracy">
   <div class="wrap">
     <h2>Accuracy &amp; AI statement</h2>
-    <div class="statement">
-      <div class="todo">Required by the assignment. In your own words: you checked every claim, quote, citation, and link yourself, and how you used AI (research, drafting, site design) and where it fell short (flattening Native Hawaiian views, overreaching comparisons to Standing Rock and Mt. Graham).</div>
+    <div class="statement prose">
+      <p>I have personally checked every factual claim, quote, citation, and link on this page against its original source, and I'm responsible for anything that's wrong.</p>
+      <p>I used AI (Claude) throughout this project: to search for sources, summarize them, help draft and edit text, and design and code this website. AI was good at summarizing sources and finding connections between them. It fell short in ways that matter for this topic. It kept flattening Native Hawaiians into one group that "opposes TMT," when Native Hawaiian astronomers testified for it. It made comparisons to Standing Rock and Mt. Graham that go too far, since those tribes have federally recognized governments and Native Hawaiians don't. It also struggled to find community-produced sources, and it mislabeled a white paper as peer-reviewed. I corrected those issues and rewrote the text in my own words.</p>
     </div>
   </div>
 </section>
 
 <footer>
-  <div class="wrap">Luke Linebaugh · EDNS 315 · Touchpoint 4 draft</div>
+  <div class="wrap">Luke Linebaugh · EDNS 315 · Touchpoint 4 draft · Hero photo by the author</div>
 </footer>
 
 <script src="script.js"></script>
