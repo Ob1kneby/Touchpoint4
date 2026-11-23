@@ -55,7 +55,7 @@ a { color: inherit; }
 .hero-photo {
   position: absolute; inset: 0;
   background-image: url("images/hero.jpg"), linear-gradient(180deg, #2b241f 0%, #4a3a2e 100%);
-  background-size: cover; background-position: center 40%;
+  background-size: cover; background-position: top 10%;
 }
 .hero-photo::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(20,16,13,.35), rgba(20,16,13,.8)); }
 .hero-inner { position: relative; padding: 96px 16px 72px; max-width: var(--max); margin: 0 auto; }
