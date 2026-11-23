@@ -2,7 +2,7 @@
    Plain CSS, no build step. Colors are tokens: change them here. */
 
 :root {
-  --bg: #f6f2ea;
+  --bg: #ebdbbd;
   --surface: #fffdf8;
   --ink: #1d1a17;
   --muted: #6b6259;
